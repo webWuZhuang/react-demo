@@ -1,0 +1,39 @@
+.container {
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+.title {
+  line-height: 60px;
+  font-size: 24px;
+  color: lightseagreen;
+  text-align: center;
+}
+.label {
+  margin-right: 10px;
+  line-height: 36px;
+  font-size: 16px;
+  color: #666;
+}
+.input {
+  margin-right: 10px;
+  padding: 0 5px;
+  border: 1px solid lightseagreen;
+  line-height: 34px;
+}
+.input:focus {
+  border: 1px soild yellowgreen;
+}
+.btn {
+  padding: 0 10px;
+  line-height: 36px;
+  font-size: 16px;
+  color: #FFF;
+  background-color: #28A745;
+  border: none;
+}
+li {
+  list-style: none;
+  line-height: 36px;
+  font-size: 16px;
+  color: #007BFF;
+}

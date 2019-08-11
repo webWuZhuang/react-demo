@@ -1,0 +1,35 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 20px;
+  width: 200px;
+  border: 1px solid lightgreen;
+  border-radius: 10px;
+  background-color: #FFF;
+  transition: all .3s linear;
+}
+.modal-title {
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+.modal-content {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: lightseagreen;
+}
+.modal-confirm {
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px;
+  line-height: 32px;
+  font-size: 14px;
+  color: #FFF;
+  background-color: #28A745;
+  border: none;
+}
